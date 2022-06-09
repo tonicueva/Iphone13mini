@@ -17,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow: -20px 20px 10px 10px silver;
 }
 
 .camara {
@@ -44,19 +45,21 @@ body {
     width: 2.9em;
     border: 4px solid #276197;
     border-radius: 100%;
-    background-color: black;
+    background-image: linear-gradient( 52deg, black, #a7a5a5);
     margin-left: 10px;
     margin-top: 10px;
+    opacity: 80%;
 }
 
 .flash {
     height: 1.1em;
     width: 1.1em;
     border: 2px solid whitesmoke;
-    background-color: white;
+    background-image: linear-gradient(51deg, #9e9d9d, white);
     border-radius: 100%;
     margin-left: 16px;
     margin-top: -8px;
+    opacity: 80%;
 }
 
 .puntoyCamaraDos {
@@ -69,9 +72,10 @@ body {
     height: 0.55em;
     width: 0.55em;
     border: 2px solid gray;
-    background-color: white;
     border-radius: 100%;
     margin-left: 26px;
+    opacity: 80%;
+    background-image: linear-gradient(54deg, #a7a7a7, white);
     
 }
 
@@ -80,8 +84,9 @@ body {
     width: 2.9em;
     border: 4px solid #276197;
     border-radius: 100%;
-    background-color: black;
+    background-image: linear-gradient(51deg, black, gainsboro);;
     margin-left: 16px;
+    opacity: 80%;
 
 }
 
@@ -92,6 +97,7 @@ body {
 .logoApple {
     width: 5em;
     height: 5em;
+    opacity: 80%;
 }
 
 .imgLogoApple {
@@ -99,4 +105,5 @@ body {
     height: 4.2em;
     margin-top: 84px;
     margin-left: 10px;
+    opacity: 80%;
 }
